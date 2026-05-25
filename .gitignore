@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+# Pipenv and Poetry environments are also common
+.venv/
+.python-version
+
+# Local environment variables (Crucial for FastAPI apps)
+.env
+.flaskenv
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Distribution / Build
+dist/
+build/
+*.egg-info/
+
+# OS specific files
+.DS_Store
+Thumbs.db
